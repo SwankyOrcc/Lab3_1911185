@@ -321,7 +321,7 @@ namespace Lab3_1911185
 			// mtxtMaSo
 			// 
 			this.mtxtMaSo.Location = new System.Drawing.Point(276, 39);
-			this.mtxtMaSo.Mask = "SV .00000";
+			this.mtxtMaSo.Mask = "0000000";
 			this.mtxtMaSo.Name = "mtxtMaSo";
 			this.mtxtMaSo.Size = new System.Drawing.Size(131, 23);
 			this.mtxtMaSo.TabIndex = 5;
@@ -424,6 +424,7 @@ namespace Lab3_1911185
 			// columnHeader1
 			// 
 			this.columnHeader1.Text = "Mã số";
+			this.columnHeader1.Width = 90;
 			// 
 			// columnHeader2
 			// 
@@ -486,20 +487,20 @@ namespace Lab3_1911185
             this.sắpXếpToolStripMenuItem1,
             this.tìmKiếmToolStripMenuItem});
 			this.contextMenuStripToolStripMenuItem.Name = "contextMenuStripToolStripMenuItem";
-			this.contextMenuStripToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.contextMenuStripToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
 			this.contextMenuStripToolStripMenuItem.Text = "ListView";
 			// 
 			// sắpXếpToolStripMenuItem1
 			// 
 			this.sắpXếpToolStripMenuItem1.Name = "sắpXếpToolStripMenuItem1";
-			this.sắpXếpToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+			this.sắpXếpToolStripMenuItem1.Size = new System.Drawing.Size(123, 22);
 			this.sắpXếpToolStripMenuItem1.Text = "Sắp xếp";
 			this.sắpXếpToolStripMenuItem1.Click += new System.EventHandler(this.sắpXếpToolStripMenuItem1_Click);
 			// 
 			// tìmKiếmToolStripMenuItem
 			// 
 			this.tìmKiếmToolStripMenuItem.Name = "tìmKiếmToolStripMenuItem";
-			this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
 			this.tìmKiếmToolStripMenuItem.Text = "Tìm kiếm";
 			this.tìmKiếmToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmToolStripMenuItem_Click);
 			// 
